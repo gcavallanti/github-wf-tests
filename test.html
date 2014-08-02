@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="quiz.css">
+<title>My quiz</title>
+</head>
+<body>
+<div id="welcome">
+    <h1 id="welcomeH1">Welcome to the Quiz Game!</h1>
+    <h2 class="welcome">Come test your knowledge of 2013!</h2>
+    <h3 class="welcome">and a very tiny amount of 2014...</h3>
+    <h4 class="welcome" id="h4Start">Please login or register to start the quiz</h4>
+    <h4 class='welcome' style='color:red'>Please do not use a real password when registering.<br />This quiz is for testing and fun only!</h4>
+</div> 
+
+<form  action="" id="registration">
+    <h5>Registration:</h5>
+
+    <input type="text" name="first" placeholder="First name" />
+    <input type="text" name="last" placeholder="Last name" /><br />
+    <input class='regField' type="text" name="username" placeholder="Username" /> <br />
+    <input class='regField' type="password" name="password" placeholder="password" /> <br />
+    <input class='regField' type="password" name="confirmPass" placeholder="Confirm Password"/> <br />
+    <button class='button' id='register'>Register</button>
+</form>
+
+<form action="" method="post" id="login">
+    <div>
+        <label for="username" class='login'>Username:</label>
+        <input class="loginField" type="text" name="user_name" /><br />
+    </div>
+    <div>
+        <label for="password" class='login'>Password:</label>
+        <input class="loginField" type="password" name="user_pass" /><br />
+    </div>
+    <div>
+        <button class="button" id="login-submit">Login</button>
+    </div>
+    <div>
+        <p>Don't have an account?
+        <button class="button" id="createAccount">Click Here To Register!</button> 
+        </p>
+    </div>
+</form>
+
+<div id="quiz">
+    <span class="question"></span>
+    <div class="answers"></div>
+    <input id="next" onclick="nextFun()" type="button" value="Next" name="next">
+</div>
+
+<script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>

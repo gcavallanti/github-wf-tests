@@ -10,7 +10,10 @@ struct node {
 
 };
 
-
+/* 
+   comment comment comment
+   comment comment comment
+*/
 struct node *create_tree(int index, struct node *left, struct node *right)
 {
   struct node *node;

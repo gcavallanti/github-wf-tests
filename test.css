@@ -1,0 +1,141 @@
+/**write your css in here**/
+/* like */
+
+/* #menubar .navbar { */
+/*     margin-bottom: 0px; */
+/* } */
+
+/* #menubar-container { */
+/*     width: 100%; */
+/* } */
+/* #maintoolbar { */
+/*     background-color: rgb(247, 247, 247); */
+/*     padding-top: 8px; */
+/*     border-bottom: 1px solid rgb(187, 187, 187); */
+/*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(249, 249, 249)); */
+/* } */
+/* .navbar-inner { */
+/*     box-shadow: none; */
+/* } */
+
+/* div#notebook_panel { */
+/*     box-shadow: none; */
+/* } */
+
+/* div#notebook { */
+/*     border-top: none; */
+/* } */
+
+/* .container { */
+/*     width: 1000px; */
+/* } */
+
+/* #menubar .navbar-inner { */
+/*     border-radius: 0px; */
+/* } */
+
+div.input_area {
+    border-radius: 0;
+    /* background-color: rgb(252, 252, 250); */
+}
+
+div.CodeMirror {
+    font-family: menlo, monospace;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+div.CodeMirror.CodeMirror-focused {
+    /* background-color: #ffffff; */
+}
+
+div.cell.selected {
+    border-radius: 0px;
+    border: thin solid #e0e0e0;
+}
+
+div.cell.edit_mode {
+    border-radius: 0px;
+    border: thin solid #bbb;
+}
+
+.cm-s-default span.cm-comment {
+    color: rgb(0, 153, 153);
+}
+
+.cm-s-ipython span.cm-keyword {
+    color: rgb(51, 51, 51);
+}
+/* .cm-s-ipython span.cm-atom {color: #219;} */
+.cm-s-ipython span.cm-number {
+    color: #005f87;
+}
+.cm-s-ipython span.cm-def {
+    color: rgb(153, 0, 0); font-weight:bold;
+}
+/* .cm-s-ipython span.cm-variable, */
+/* .cm-s-ipython span.cm-punctuation, */
+/* .cm-s-ipython span.cm-property, */
+.cm-s-ipython span.cm-operator {
+    color: rgb(51, 51, 51);
+}
+/* .cm-s-ipython span.cm-variable-2 {color: #05a;} */
+/* .cm-s-ipython span.cm-variable-3 {color: #085;} */
+.cm-s-ipython span.cm-comment {
+    color: rgb(153, 153, 136); font-style: italic;
+}
+
+.cm-s-ipython span.cm-comment {
+    color: rgb(153, 153, 136); font-style: italic;
+}
+.cm-s-ipython span.cm-string {
+    color: #870000;
+}
+/* .cm-s-ipython span.cm-string-2 {color: #f50;} */
+.cm-s-ipython span.cm-meta {
+    color: rgb(52, 106, 40);
+}
+/* .cm-s-ipython span.cm-qualifier {color: #555;} */
+.cm-s-ipython span.cm-builtin {
+    color: rgb(0, 134, 179)
+}
+/* .cm-s-ipython span.cm-bracket {color: #997;} */
+/* .cm-s-ipython span.cm-tag {color: #170;} */
+/* .cm-s-ipython span.cm-attribute {color: #00c;} */
+/* .cm-s-ipython span.cm-header {color: blue;} */
+.cm-s-default span.cm-quote {
+    color: rgb(0, 153, 154);
+}
+/* .cm-s-ipython span.cm-hr {color: #999;} */
+.cm-s-default span.cm-link {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* .cm-negative {color: #d44;} */
+/* .cm-positive {color: #292;} */
+.cm-s-default .cm-header {
+    color: #000;
+    font-weight: bold;
+}
+
+::-moz-selection { color: gold;  background: red; }
+::selection      { color: gold;  background: red; } 
+
+.cm-strong {font-weight: bold;}
+/* .cm-em {font-style: italic;} */
+/* .cm-link {text-decoration: underline;} */
+
+/* .cm-s-ipython span.cm-error {color: #f00;} */
+/* .cm-invalidchar {color: #f00;} */
+
+/* /1* Default styles for common addons *1/ */
+
+div.CodeMirror span.CodeMirror-matchingbracket {color: rgb(13, 201, 9); font-weight: bold;}
+div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
+/* .CodeMirror-matchingtag { background: rgba(255, 150, 0, .3); } */
+/* .CodeMirror-activeline-background {background: #e8f2ff;} */
+
+/* .CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor { */
+/*   background-color: rgb(102,204,255); */
+/* } */

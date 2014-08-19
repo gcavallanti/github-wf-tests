@@ -17,6 +17,18 @@ h1, h2, h3, h4 {
 	margin: .5em 0;
 }
 
+.gist .gist-file .gist-data {
+  font-size: .8rem !important;
+  line-height: 1.4;
+}
+
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
 h1 a, h2 a, h3 a, h4 a {
 	text-decoration: none;
 }

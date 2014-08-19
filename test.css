@@ -124,6 +124,7 @@ blockquote {
 }
 
 #footer {
+	border-bottom: 1px solid rgb(153, 153, 153);
 	border-top: solid #999 1px;
 	padding: 2em 0 1em 0;
 	color: #666;
